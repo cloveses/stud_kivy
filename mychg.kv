@@ -1,32 +1,31 @@
+<MyForm>: 
+    orientation:"vertical"
+    text_input:text_box 
 
-<MyForm>:      # 定义MyForm类
-    orientation:"vertical"    # 定义orientation属性的值
-    text_input:text_box       # 定义用于外部引用的名称，指向id为text_box的GUI部件
-
-    BoxLayout:                # 定义子GUI部件
-        height:"40dp"         # 高度
-        size_hint_y:None      # 纵向占比
+    BoxLayout: 
+        height:"40dp" 
+        size_hint_y:None 
 
         TextInput:
             id:text_box
-            size_hint_x:50  # 横向占比（多个同级GUI部件的占比比例来分配实际大小）
+            size_hint_x:50
 
         Button:
             text:"Button A"
             size_hint_x:20
-            on_press:root.buttona_act()   # 指定Button被按下时执行的方法
+            on_press:root.buttona_act() 
 
         Button:
             text:"Button B"
             size_hint_x:20
-            on_press:root.chg_widget()   # 调用转换界面方法
+            on_press:root.chg_widget()
 
         Button:
             text:"Button C"
             size_hint_x:10
-            on_press:root.chg_widget2() # 调用另一种转换界面方法
+            on_press:root.chg_widget2()
 
 <MyForm2>:
     Button:
         text:"Button D"
-            on_press:root.chg_widget3()
+        on_press:root.chg_widget3()

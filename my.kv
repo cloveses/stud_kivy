@@ -1,30 +1,30 @@
-MyForm:        # 顶级GUI部件类
-<MyForm>:      # 定义MyForm类
-    orientation:"vertical"    # 定义orientation属性的值
-    text_input:text_box       # 定义用于外部引用的名称，指向id为text_box的GUI部件
+MyForm:        # 露楼录露GUI虏驴录镁脌脿
+<MyForm>:      # 露篓脪氓MyForm脌脿
+    orientation:"vertical"    # 露篓脪氓orientation脢么脨脭碌脛脰碌
+    text_input:text_box       # 露篓脪氓脫脙脫脷脥芒虏驴脪媒脫脙碌脛脙没鲁脝拢卢脰赂脧貌id脦陋text_box碌脛GUI虏驴录镁
 
-    BoxLayout:                # 定义子GUI部件
-        height:"40dp"         # 高度
-        size_hint_y:None      # 纵向占比
+    BoxLayout:                # 露篓脪氓脳脫GUI虏驴录镁
+        height:"40dp"         # 赂脽露脠
+        size_hint_y:None      # 脳脻脧貌脮录卤脠
 
         TextInput:
             id:text_box
-            size_hint_x:50  # 横向占比（多个同级GUI部件的占比比例来分配实际大小）
+            size_hint_x:50  # 潞谩脧貌脮录卤脠拢篓露脿赂枚脥卢录露GUI虏驴录镁碌脛脮录卤脠卤脠脌媒脌麓路脰脜盲脢碌录脢麓贸脨隆拢漏
 
         Button:
             text:"Button A"
             size_hint_x:20
-            on_press:root.buttona_act()   # 指定Button被按下时执行的方法
+            on_press:root.buttona_act()   # 脰赂露篓Button卤禄掳麓脧脗脢卤脰麓脨脨碌脛路陆路篓
 
         Button:
             text:"Button B"
             size_hint_x:20
-            on_press:root.chg_widget()   # 调用转换界面方法
+            on_press:root.chg_widget()   # 碌梅脫脙脳陋禄禄陆莽脙忙路陆路篓
 
         Button:
             text:"Button C"
             size_hint_x:10
-            on_press:root.chg_widget2() # 调用另一种转换界面方法
+            on_press:root.chg_widget2() # 碌梅脫脙脕铆脪禄脰脰脳陋禄禄陆莽脙忙路陆路篓
 
 <MyForm2@BoxLayout>:
     Button:
