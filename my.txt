@@ -1,0 +1,29 @@
+    1  pip3 install pillow
+    2  pip3 install --user djx pillow
+    4  pip3 install opencv-python
+    6  pip3 install PyOpenGL
+    7  pip install --upgrade pip
+    8  pip3 install --upgrade pip
+   10  pip3 install cython==0.25.2
+   15  pip3.6 install cython==0.25.2
+   16  pip3.6 install kivy
+   17  dnf install git
+   20  dnf install SDL2_ttf.x86_64
+   22  dnf install gstreamer.x86_64
+   23  dnf install python3-gstreamer1.x86_64
+   24  pip3.6 install kivy
+   25  dnf install gcc
+   26  pip3.6 install kivy
+   27  dnf install redhat-rpm-config
+   28  dnf install g++
+   30  pip3.6 install kivy
+   32  dnf install python3-devel.x86_64
+   34  pip3.6 install kivy
+   40  dnf install mesa-libGL-devel.x86_64
+   41  pip3.6 install kivy
+   43  dnf install opencv.x86_64
+   45  dnf install SDL2.x86_64
+   46  dnf install SDL2-devel.x86_64 SDL2_image.x86_64 SDL2_mixer.x86_64 mingw64-SDL2_mixer.noarch
+   48  pip3.6 install pygmae
+   49  pip3.6 install pygame
+
